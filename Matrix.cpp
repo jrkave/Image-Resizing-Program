@@ -32,21 +32,18 @@ void Matrix_print(const Matrix* mat, std::ostream& os) {
     }
     os << "\n";
   }
-  //assert(false); // TODO Replace with your implementation!
 }
 
 // REQUIRES: mat points to an valid Matrix
 // EFFECTS:  Returns the width of the Matrix.
 int Matrix_width(const Matrix* mat) {
   return mat->width;
-  //assert(false); // TODO Replace with your implementation!
 }
 
 // REQUIRES: mat points to a valid Matrix
 // EFFECTS:  Returns the height of the Matrix.
 int Matrix_height(const Matrix* mat) {
   return mat->height;
-  //assert(false); // TODO Replace with your implementation!
 }
 
 // REQUIRES: mat points to a valid Matrix
