@@ -1,12 +1,16 @@
-EECS 280 Project 2
-===========================
-Image Resizing Program using a Seam-Carving Algorithm
+# EECS 280 Project 2 - Image Resizor
+## Description
+This image resizing project uses a seam carving algorithm that considers energy and cost matrices to selectively remove the least significant pixels of an image, effectively enabling users to shrink an image while preserving its key features. Developed using functions that allow for width and height adjustments, users issue commands to a user-friendly command line interface to resize images in either single-dimensional or multi-dimensional resizing scenarios. 
 
-By Julia Veenkamp <veenkamj@gmail.com>
+## Skills Practiced
+- Testing
+- Debugging
+- Pointers
+- Arrays
+- Strings
+- Streams
+- Input/Output
+- Abstract Data Types
 
-## Longer Description
-Build an image resizing program using a seam-carving algorithm.
-
-The learning goals of this project include Testing, Debugging, Pointers, Arrays, Strings, Streams, IO, and Abstract Data Types in C. You’ll gain practice with C-style pointers, arrays, and structs.
-
-When you’re done, you’ll have a program that uses seam carving for content-aware resizing of images. The algorithm works by finding and removing “seams” in the image that pass through the least important pixels.
+## Credit
+This project was done as apart of coursework from The University of Michigan's EECS 280 (Winter 2023). You can find the supplied files and project description [here](https://eecs280staff.github.io/p2-cv/).
