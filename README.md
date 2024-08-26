@@ -1,4 +1,4 @@
-# EECS 280 Project 2 - Image Resizor
+# EECS 280 Project 2 - Image Resizer
 ## Description
 This image resizing project uses a seam carving algorithm that considers energy and cost matrices to selectively remove the least significant pixels of an image, effectively enabling users to shrink an image while preserving its key features. Developed using functions that allow for width and height adjustments, users issue commands to a user-friendly command line interface to resize images in either single-dimensional or multi-dimensional resizing scenarios. 
 
